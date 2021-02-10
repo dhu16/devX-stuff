@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0405B28025CF5642000E50B8 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405B27F25CF5642000E50B8 /* ContactInfoViewController.swift */; };
+		0410B11A2548D8E9001C4D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B1192548D8E9001C4D27 /* AppDelegate.swift */; };
+		0410B11C2548D8E9001C4D27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B11B2548D8E9001C4D27 /* SceneDelegate.swift */; };
+		0410B11E2548D8E9001C4D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B11D2548D8E9001C4D27 /* ViewController.swift */; };
+		0410B1212548D8E9001C4D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410B11F2548D8E9001C4D27 /* Main.storyboard */; };
+		0410B1232548D8EB001C4D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410B1222548D8EB001C4D27 /* Assets.xcassets */; };
+		0410B1262548D8EB001C4D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410B1242548D8EB001C4D27 /* LaunchScreen.storyboard */; };
+		0410B1312548D8EB001C4D27 /* InstaParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B1302548D8EB001C4D27 /* InstaParkTests.swift */; };
+		0410B13C2548D8EB001C4D27 /* InstaParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B13B2548D8EB001C4D27 /* InstaParkUITests.swift */; };
+		0410B1702548F860001C4D27 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B16F2548F860001C4D27 /* AuthService.swift */; };
+		0410B190254A49F7001C4D27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B18F254A49F7001C4D27 /* LoginViewController.swift */; };
+		0410B195254A4A08001C4D27 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B194254A4A08001C4D27 /* SignupViewController.swift */; };
+		0410B19A254A4A7E001C4D27 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410B199254A4A7E001C4D27 /* MapViewViewController.swift */; };
+		0449E5A125AD6F3D00F0EED9 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449E5A025AD6F3D00F0EED9 /* PaymentService.swift */; };
+		044A3FE3254E9EF000B5F19C /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A3FE2254E9EF000B5F19C /* ParkingSpot.swift */; };
+		044A3FE8254EA07A00B5F19C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A3FE7254EA07A00B5F19C /* Transaction.swift */; };
+		044AD5802581EE07000FE799 /* SlideOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD57F2581EE07000FE799 /* SlideOutView.swift */; };
+		045FF1BE2573854A00DC7327 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FF1BD2573854A00DC7327 /* UIButtonExtension.swift */; };
+		046C40252563AF8800BD5E85 /* LocationSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C40242563AF8800BD5E85 /* LocationSearchTableViewController.swift */; };
+		0482FE80255CB13A002F522E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FE7F255CB13A002F522E /* User.swift */; };
+		0482FE85255CB157002F522E /* ParkingCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FE84255CB157002F522E /* ParkingCalloutView.swift */; };
+		0482FE8D255CB26F002F522E /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FE8C255CB26F002F522E /* TransactionService.swift */; };
+		0482FE92255CB276002F522E /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FE91255CB276002F522E /* UserService.swift */; };
+		0482FE97255CB297002F522E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0482FE96255CB297002F522E /* fonts */; };
+		0482FE9D255CB2A8002F522E /* google-icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 0482FE9B255CB2A7002F522E /* google-icon.ico */; };
+		0482FE9E255CB2A8002F522E /* google-icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0482FE9C255CB2A8002F522E /* google-icon.svg */; };
+		0482FEA3255CB2D0002F522E /* SignupPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FEA2255CB2D0002F522E /* SignupPaymentViewController.swift */; };
+		0482FEA8255CB2D6002F522E /* ReservationModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482FEA7255CB2D6002F522E /* ReservationModalViewController.swift */; };
+		048D7E50254FDA49009B6AE3 /* Codable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D7E4F254FDA49009B6AE3 /* Codable+Dictionary.swift */; };
+		048D7E552550D739009B6AE3 /* ParkingSpotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D7E542550D739009B6AE3 /* ParkingSpotService.swift */; };
+		0498632C2578354F00C7F370 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498632B2578354F00C7F370 /* TransactionTableViewCell.swift */; };
+		049863312578466300C7F370 /* TransactionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049863302578466300C7F370 /* TransactionTableViewController.swift */; };
+		04AB7897255DCA280090B6E7 /* ShortTermParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB7896255DCA280090B6E7 /* ShortTermParkingSpot.swift */; };
+		04AB789C255DCA320090B6E7 /* LongTermParking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB789B255DCA320090B6E7 /* LongTermParking.swift */; };
+		2B0F2C1925BA307F008430FF /* PictureUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2C1825BA307F008430FF /* PictureUploadViewController.swift */; };
+		2B0F2C1E25BA4D9D008430FF /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F2C1D25BA4D9D008430FF /* CommentsViewController.swift */; };
+		2B29F77125BE3BC400E897E7 /* ParkingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29F77025BE3BC300E897E7 /* ParkingInfoView.swift */; };
+		2B33E56F25C33ED700FDC288 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33E56E25C33ED700FDC288 /* PriceViewController.swift */; };
+		2B633EA825B92F9A003448A4 /* SelectListingTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B633EA725B92F9A003448A4 /* SelectListingTypeViewController.swift */; };
+		2B633EB025B93745003448A4 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B633EAF25B93745003448A4 /* BebasNeue-Regular.ttf */; };
+		2B6A4DEF25CCB21C00864075 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A4DEE25CCB21C00864075 /* SegueFromLeft.swift */; };
+		2B6A4DF425CCC62D00864075 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A4DF325CCC62D00864075 /* SegueFromRight.swift */; };
+		2B6A4DF925CCC8EB00864075 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6A4DF825CCC8EB00864075 /* ListingViewController.swift */; };
+		2B786A7F25CA5441001575D2 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B786A7E25CA5441001575D2 /* DirectionsViewController.swift */; };
+		2B97AF1A25C3736E002950A9 /* ParkingTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97AF1925C3736E002950A9 /* ParkingTypeViewController.swift */; };
+		2BD6E15825C4EDE000E4A88F /* UploadSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6E15725C4EDE000E4A88F /* UploadSlideView.swift */; };
+		2BD6E15D25C4EE1000E4A88F /* UploadSlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD6E15C25C4EE1000E4A88F /* UploadSlideView.xib */; };
+		2BD6E16225C51BE000E4A88F /* uploadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD6E16125C51BE000E4A88F /* uploadButtonView.swift */; };
+		2BE39BD625C3C2F200D10436 /* ParkingTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE39BD525C3C2F100D10436 /* ParkingTypeView.swift */; };
+		5EC37271123F868AC4006BD5 /* Pods_InstaPark_InstaParkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3B1D98927989F311CC80D4 /* Pods_InstaPark_InstaParkUITests.framework */; };
+		6780CFAC78BE57EC1A46239B /* Pods_InstaPark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64A4E5B848A1E0438EBF59 /* Pods_InstaPark.framework */; };
+		9404764D254CEABC008C111E /* ParkingSpaceMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9404764C254CEABC008C111E /* ParkingSpaceMapAnnotation.swift */; };
+		94158B3C2568A359002F5B51 /* ReservationConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94158B3B2568A359002F5B51 /* ReservationConfirmationViewController.swift */; };
+		942F122A25C65A8B00D04F39 /* calendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F122925C65A8B00D04F39 /* calendarCell.swift */; };
+		9431304E254E4E83002221F4 /* CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431304D254E4E83002221F4 /* CalloutView.swift */; };
+		94313125255627BE002221F4 /* smallOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94313124255627BE002221F4 /* smallOverlayView.swift */; };
+		943131302556391D002221F4 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9431312F2556391D002221F4 /* BookingViewController.swift */; };
+		945167CD25AE96BC00939551 /* landingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945167CC25AE96BC00939551 /* landingPageViewController.swift */; };
+		945167D225AE96CF00939551 /* hourlyTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945167D125AE96CF00939551 /* hourlyTimeViewController.swift */; };
+		945167D725AE96E800939551 /* monthlyTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945167D625AE96E800939551 /* monthlyTimeViewController.swift */; };
+		9451680E25B91A6000939551 /* ListingTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451680D25B91A6000939551 /* ListingTimesViewController.swift */; };
+		9451681325B932FE00939551 /* ListingAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451681225B932FE00939551 /* ListingAddressViewController.swift */; };
+		94C7F85525584DD300FC15DC /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7F85425584DD300FC15DC /* AvailabilityViewController.swift */; };
+		94C8AB5D257C972A00D89060 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0482FE96255CB297002F522E /* fonts */; };
+		94C8AB61257C972B00D89060 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0482FE96255CB297002F522E /* fonts */; };
+		94C8AB97257C9F9F00D89060 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB8B257C9F9E00D89060 /* Roboto-Black.ttf */; };
+		94C8AB98257C9F9F00D89060 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB8C257C9F9E00D89060 /* Roboto-BoldItalic.ttf */; };
+		94C8AB99257C9F9F00D89060 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB8D257C9F9E00D89060 /* Roboto-MediumItalic.ttf */; };
+		94C8AB9A257C9F9F00D89060 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB8E257C9F9E00D89060 /* Roboto-Light.ttf */; };
+		94C8AB9B257C9F9F00D89060 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB8F257C9F9E00D89060 /* Roboto-Medium.ttf */; };
+		94C8AB9C257C9F9F00D89060 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB90257C9F9E00D89060 /* Roboto-Italic.ttf */; };
+		94C8AB9D257C9F9F00D89060 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB91257C9F9E00D89060 /* Roboto-Thin.ttf */; };
+		94C8AB9E257C9F9F00D89060 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB92257C9F9F00D89060 /* Roboto-ThinItalic.ttf */; };
+		94C8AB9F257C9F9F00D89060 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB93257C9F9F00D89060 /* Roboto-BlackItalic.ttf */; };
+		94C8ABA0257C9F9F00D89060 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB94257C9F9F00D89060 /* Roboto-Bold.ttf */; };
+		94C8ABA1257C9F9F00D89060 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB95257C9F9F00D89060 /* Roboto-LightItalic.ttf */; };
+		94C8ABA2257C9F9F00D89060 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94C8AB96257C9F9F00D89060 /* Roboto-Regular.ttf */; };
+		94DFA7AC25C1204800A371E8 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DFA7AB25C1204800A371E8 /* ImageService.swift */; };
+		B077A1B195D83D092DCED7A6 /* Pods_InstaParkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB029C29483E699DC42615 /* Pods_InstaParkTests.framework */; };
+		B49FB6B825608C2400D1DB45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0410B1502548EACC001C4D27 /* GoogleService-Info.plist */; };
+		B4D29FAE2560AD6A0092CBB4 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D29FAD2560AD6A0092CBB4 /* DesignableTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0410B12D2548D8EB001C4D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0410B10E2548D8E9001C4D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0410B1152548D8E9001C4D27;
+			remoteInfo = InstaPark;
+		};
+		0410B1382548D8EB001C4D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0410B10E2548D8E9001C4D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0410B1152548D8E9001C4D27;
+			remoteInfo = InstaPark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0405B27F25CF5642000E50B8 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+		0410B1162548D8E9001C4D27 /* InstaPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B1192548D8E9001C4D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0410B11B2548D8E9001C4D27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0410B11D2548D8E9001C4D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0410B1202548D8E9001C4D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0410B1222548D8EB001C4D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0410B1252548D8EB001C4D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0410B1272548D8EB001C4D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B12C2548D8EB001C4D27 /* InstaParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B1302548D8EB001C4D27 /* InstaParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaParkTests.swift; sourceTree = "<group>"; };
+		0410B1322548D8EB001C4D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B1372548D8EB001C4D27 /* InstaParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410B13B2548D8EB001C4D27 /* InstaParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaParkUITests.swift; sourceTree = "<group>"; };
+		0410B13D2548D8EB001C4D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410B1502548EACC001C4D27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0410B16F2548F860001C4D27 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0410B18F254A49F7001C4D27 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0410B194254A4A08001C4D27 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		0410B199254A4A7E001C4D27 /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		0449E5A025AD6F3D00F0EED9 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		044A3FE2254E9EF000B5F19C /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		044A3FE7254EA07A00B5F19C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		044AD57F2581EE07000FE799 /* SlideOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutView.swift; sourceTree = "<group>"; };
+		045FF1BD2573854A00DC7327 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		046C40242563AF8800BD5E85 /* LocationSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTableViewController.swift; sourceTree = "<group>"; };
+		0482FE7F255CB13A002F522E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0482FE84255CB157002F522E /* ParkingCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingCalloutView.swift; sourceTree = "<group>"; };
+		0482FE8C255CB26F002F522E /* TransactionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		0482FE91255CB276002F522E /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		0482FE96255CB297002F522E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		0482FE9B255CB2A7002F522E /* google-icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "google-icon.ico"; sourceTree = "<group>"; };
+		0482FE9C255CB2A8002F522E /* google-icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "google-icon.svg"; sourceTree = "<group>"; };
+		0482FEA2255CB2D0002F522E /* SignupPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupPaymentViewController.swift; sourceTree = "<group>"; };
+		0482FEA7255CB2D6002F522E /* ReservationModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationModalViewController.swift; sourceTree = "<group>"; };
+		048D7E4F254FDA49009B6AE3 /* Codable+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Dictionary.swift"; sourceTree = "<group>"; };
+		048D7E542550D739009B6AE3 /* ParkingSpotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotService.swift; sourceTree = "<group>"; };
+		0498632B2578354F00C7F370 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		049863302578466300C7F370 /* TransactionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewController.swift; sourceTree = "<group>"; };
+		04AB7896255DCA280090B6E7 /* ShortTermParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortTermParkingSpot.swift; sourceTree = "<group>"; };
+		04AB789B255DCA320090B6E7 /* LongTermParking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTermParking.swift; sourceTree = "<group>"; };
+		0A3B1D98927989F311CC80D4 /* Pods_InstaPark_InstaParkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPark_InstaParkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0F2C1825BA307F008430FF /* PictureUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureUploadViewController.swift; sourceTree = "<group>"; };
+		2B0F2C1D25BA4D9D008430FF /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		2B29F77025BE3BC300E897E7 /* ParkingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingInfoView.swift; sourceTree = "<group>"; };
+		2B33E56E25C33ED700FDC288 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		2B633EA725B92F9A003448A4 /* SelectListingTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListingTypeViewController.swift; sourceTree = "<group>"; };
+		2B633EAF25B93745003448A4 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		2B6A4DEE25CCB21C00864075 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		2B6A4DF325CCC62D00864075 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		2B6A4DF825CCC8EB00864075 /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		2B786A7E25CA5441001575D2 /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		2B97AF1925C3736E002950A9 /* ParkingTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTypeViewController.swift; sourceTree = "<group>"; };
+		2BD6E15725C4EDE000E4A88F /* UploadSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadSlideView.swift; sourceTree = "<group>"; };
+		2BD6E15C25C4EE1000E4A88F /* UploadSlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadSlideView.xib; sourceTree = "<group>"; };
+		2BD6E16125C51BE000E4A88F /* uploadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadButtonView.swift; sourceTree = "<group>"; };
+		2BE39BD525C3C2F100D10436 /* ParkingTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTypeView.swift; sourceTree = "<group>"; };
+		30CB94D117C221B132D1BCFA /* Pods-InstaPark-InstaParkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPark-InstaParkUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4798B55AD2CA44F01FBFAD9A /* Pods-InstaPark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPark.release.xcconfig"; path = "Target Support Files/Pods-InstaPark/Pods-InstaPark.release.xcconfig"; sourceTree = "<group>"; };
+		62C5430310CECA7E1F1E1A83 /* Pods-InstaPark-InstaParkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPark-InstaParkUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ACB029C29483E699DC42615 /* Pods_InstaParkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaParkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BBE7307C025EDEF69CB82A /* Pods-InstaPark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPark.debug.xcconfig"; path = "Target Support Files/Pods-InstaPark/Pods-InstaPark.debug.xcconfig"; sourceTree = "<group>"; };
+		9404764C254CEABC008C111E /* ParkingSpaceMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpaceMapAnnotation.swift; sourceTree = "<group>"; };
+		94158B3B2568A359002F5B51 /* ReservationConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationConfirmationViewController.swift; sourceTree = "<group>"; };
+		942F122925C65A8B00D04F39 /* calendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarCell.swift; sourceTree = "<group>"; };
+		9431304D254E4E83002221F4 /* CalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
+		94313124255627BE002221F4 /* smallOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallOverlayView.swift; sourceTree = "<group>"; };
+		9431312F2556391D002221F4 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		945167CC25AE96BC00939551 /* landingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landingPageViewController.swift; sourceTree = "<group>"; };
+		945167D125AE96CF00939551 /* hourlyTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hourlyTimeViewController.swift; sourceTree = "<group>"; };
+		945167D625AE96E800939551 /* monthlyTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monthlyTimeViewController.swift; sourceTree = "<group>"; };
+		9451680D25B91A6000939551 /* ListingTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTimesViewController.swift; sourceTree = "<group>"; };
+		9451681225B932FE00939551 /* ListingAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingAddressViewController.swift; sourceTree = "<group>"; };
+		94C7F85425584DD300FC15DC /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		94C8AB8B257C9F9E00D89060 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		94C8AB8C257C9F9E00D89060 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		94C8AB8D257C9F9E00D89060 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		94C8AB8E257C9F9E00D89060 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		94C8AB8F257C9F9E00D89060 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		94C8AB90257C9F9E00D89060 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		94C8AB91257C9F9E00D89060 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		94C8AB92257C9F9F00D89060 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		94C8AB93257C9F9F00D89060 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		94C8AB94257C9F9F00D89060 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		94C8AB95257C9F9F00D89060 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		94C8AB96257C9F9F00D89060 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		94DFA7AB25C1204800A371E8 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		B4D29FAD2560AD6A0092CBB4 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		BA64A4E5B848A1E0438EBF59 /* Pods_InstaPark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB3BEB0DBAF3EBA683DD6B0 /* Pods-InstaParkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaParkTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaParkTests/Pods-InstaParkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A1EA382BF589B312F96A2D /* Pods-InstaParkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaParkTests.release.xcconfig"; path = "Target Support Files/Pods-InstaParkTests/Pods-InstaParkTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0410B1132548D8E9001C4D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6780CFAC78BE57EC1A46239B /* Pods_InstaPark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B1292548D8EB001C4D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B077A1B195D83D092DCED7A6 /* Pods_InstaParkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B1342548D8EB001C4D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC37271123F868AC4006BD5 /* Pods_InstaPark_InstaParkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0405B27E25CF5620000E50B8 /* ContactInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0405B27F25CF5642000E50B8 /* ContactInfoViewController.swift */,
+			);
+			path = ContactInfo;
+			sourceTree = "<group>";
+		};
+		0410B10D2548D8E9001C4D27 = {
+			isa = PBXGroup;
+			children = (
+				0410B1182548D8E9001C4D27 /* InstaPark */,
+				0410B12F2548D8EB001C4D27 /* InstaParkTests */,
+				0410B13A2548D8EB001C4D27 /* InstaParkUITests */,
+				0410B1172548D8E9001C4D27 /* Products */,
+				4C344A023A696E3843DA9E9C /* Pods */,
+				6A6212AC098713102D55085B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0410B1172548D8E9001C4D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0410B1162548D8E9001C4D27 /* InstaPark.app */,
+				0410B12C2548D8EB001C4D27 /* InstaParkTests.xctest */,
+				0410B1372548D8EB001C4D27 /* InstaParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0410B1182548D8E9001C4D27 /* InstaPark */ = {
+			isa = PBXGroup;
+			children = (
+				0410B16E2548F84B001C4D27 /* Services */,
+				0410B14F2548DC8F001C4D27 /* SupportingFiles */,
+				0410B14C2548DC1F001C4D27 /* Controllers */,
+				0410B14E2548DC3A001C4D27 /* Models */,
+				0410B14D2548DC2D001C4D27 /* Views */,
+				0410B11D2548D8E9001C4D27 /* ViewController.swift */,
+				045FF1BC2573853800DC7327 /* UI */,
+				0410B11F2548D8E9001C4D27 /* Main.storyboard */,
+			);
+			path = InstaPark;
+			sourceTree = "<group>";
+		};
+		0410B12F2548D8EB001C4D27 /* InstaParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0410B1302548D8EB001C4D27 /* InstaParkTests.swift */,
+				0410B1322548D8EB001C4D27 /* Info.plist */,
+			);
+			path = InstaParkTests;
+			sourceTree = "<group>";
+		};
+		0410B13A2548D8EB001C4D27 /* InstaParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0410B13B2548D8EB001C4D27 /* InstaParkUITests.swift */,
+				0410B13D2548D8EB001C4D27 /* Info.plist */,
+			);
+			path = InstaParkUITests;
+			sourceTree = "<group>";
+		};
+		0410B14C2548DC1F001C4D27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0405B27E25CF5620000E50B8 /* ContactInfo */,
+				945167CB25AE96A400939551 /* TimeViewControllers */,
+				0410B18F254A49F7001C4D27 /* LoginViewController.swift */,
+				0410B194254A4A08001C4D27 /* SignupViewController.swift */,
+				0482FEA2255CB2D0002F522E /* SignupPaymentViewController.swift */,
+				0410B199254A4A7E001C4D27 /* MapViewViewController.swift */,
+				0482FEA7255CB2D6002F522E /* ReservationModalViewController.swift */,
+				9404764C254CEABC008C111E /* ParkingSpaceMapAnnotation.swift */,
+				046C40242563AF8800BD5E85 /* LocationSearchTableViewController.swift */,
+				9460B9B72558A8720016697A /* Booking Controllers */,
+				9431304C254E4E47002221F4 /* CustomCallout */,
+				049863302578466300C7F370 /* TransactionTableViewController.swift */,
+				2B6A4DC525CB9F2000864075 /* ListingViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0410B14D2548DC2D001C4D27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0498632B2578354F00C7F370 /* TransactionTableViewCell.swift */,
+				044AD57F2581EE07000FE799 /* SlideOutView.swift */,
+				2B29F77025BE3BC300E897E7 /* ParkingInfoView.swift */,
+				942F122925C65A8B00D04F39 /* calendarCell.swift */,
+				2BE39BD525C3C2F100D10436 /* ParkingTypeView.swift */,
+				2BD6E15725C4EDE000E4A88F /* UploadSlideView.swift */,
+				2BD6E15C25C4EE1000E4A88F /* UploadSlideView.xib */,
+				2BD6E16125C51BE000E4A88F /* uploadButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0410B14E2548DC3A001C4D27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				044A3FE2254E9EF000B5F19C /* ParkingSpot.swift */,
+				0482FE7F255CB13A002F522E /* User.swift */,
+				044A3FE7254EA07A00B5F19C /* Transaction.swift */,
+				048D7E4F254FDA49009B6AE3 /* Codable+Dictionary.swift */,
+				04AB7896255DCA280090B6E7 /* ShortTermParkingSpot.swift */,
+				04AB789B255DCA320090B6E7 /* LongTermParking.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0410B14F2548DC8F001C4D27 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0410B1192548D8E9001C4D27 /* AppDelegate.swift */,
+				0410B11B2548D8E9001C4D27 /* SceneDelegate.swift */,
+				94C8ABA6257F0DA200D89060 /* Roboto */,
+				0410B1222548D8EB001C4D27 /* Assets.xcassets */,
+				2B633EAF25B93745003448A4 /* BebasNeue-Regular.ttf */,
+				0482FE96255CB297002F522E /* fonts */,
+				0410B1502548EACC001C4D27 /* GoogleService-Info.plist */,
+				0482FE9B255CB2A7002F522E /* google-icon.ico */,
+				0482FE9C255CB2A8002F522E /* google-icon.svg */,
+				0410B1242548D8EB001C4D27 /* LaunchScreen.storyboard */,
+				0410B1272548D8EB001C4D27 /* Info.plist */,
+				B4D29FAD2560AD6A0092CBB4 /* DesignableTextField.swift */,
+				2B6A4DEE25CCB21C00864075 /* SegueFromLeft.swift */,
+				2B6A4DF325CCC62D00864075 /* SegueFromRight.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0410B16E2548F84B001C4D27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0410B16F2548F860001C4D27 /* AuthService.swift */,
+				0449E5A025AD6F3D00F0EED9 /* PaymentService.swift */,
+				0482FE91255CB276002F522E /* UserService.swift */,
+				0482FE8C255CB26F002F522E /* TransactionService.swift */,
+				048D7E542550D739009B6AE3 /* ParkingSpotService.swift */,
+				94DFA7AB25C1204800A371E8 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		045FF1BC2573853800DC7327 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				045FF1BD2573854A00DC7327 /* UIButtonExtension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B6A4DC525CB9F2000864075 /* ListingViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B6A4DF825CCC8EB00864075 /* ListingViewController.swift */,
+				2B0F2C1D25BA4D9D008430FF /* CommentsViewController.swift */,
+				2B0F2C1825BA307F008430FF /* PictureUploadViewController.swift */,
+				2B633EA725B92F9A003448A4 /* SelectListingTypeViewController.swift */,
+				2B33E56E25C33ED700FDC288 /* PriceViewController.swift */,
+				2B786A7E25CA5441001575D2 /* DirectionsViewController.swift */,
+				9451681225B932FE00939551 /* ListingAddressViewController.swift */,
+				9451680D25B91A6000939551 /* ListingTimesViewController.swift */,
+				2B97AF1925C3736E002950A9 /* ParkingTypeViewController.swift */,
+			);
+			path = ListingViewControllers;
+			sourceTree = "<group>";
+		};
+		4C344A023A696E3843DA9E9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93BBE7307C025EDEF69CB82A /* Pods-InstaPark.debug.xcconfig */,
+				4798B55AD2CA44F01FBFAD9A /* Pods-InstaPark.release.xcconfig */,
+				62C5430310CECA7E1F1E1A83 /* Pods-InstaPark-InstaParkUITests.debug.xcconfig */,
+				30CB94D117C221B132D1BCFA /* Pods-InstaPark-InstaParkUITests.release.xcconfig */,
+				DBB3BEB0DBAF3EBA683DD6B0 /* Pods-InstaParkTests.debug.xcconfig */,
+				F2A1EA382BF589B312F96A2D /* Pods-InstaParkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A6212AC098713102D55085B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA64A4E5B848A1E0438EBF59 /* Pods_InstaPark.framework */,
+				0A3B1D98927989F311CC80D4 /* Pods_InstaPark_InstaParkUITests.framework */,
+				8ACB029C29483E699DC42615 /* Pods_InstaParkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9431304C254E4E47002221F4 /* CustomCallout */ = {
+			isa = PBXGroup;
+			children = (
+				9431304D254E4E83002221F4 /* CalloutView.swift */,
+				0482FE84255CB157002F522E /* ParkingCalloutView.swift */,
+			);
+			path = CustomCallout;
+			sourceTree = "<group>";
+		};
+		945167CB25AE96A400939551 /* TimeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				945167CC25AE96BC00939551 /* landingPageViewController.swift */,
+				945167D125AE96CF00939551 /* hourlyTimeViewController.swift */,
+				945167D625AE96E800939551 /* monthlyTimeViewController.swift */,
+			);
+			path = TimeViewControllers;
+			sourceTree = "<group>";
+		};
+		9460B9B72558A8720016697A /* Booking Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94313124255627BE002221F4 /* smallOverlayView.swift */,
+				9431312F2556391D002221F4 /* BookingViewController.swift */,
+				94C7F85425584DD300FC15DC /* AvailabilityViewController.swift */,
+				94158B3B2568A359002F5B51 /* ReservationConfirmationViewController.swift */,
+			);
+			path = "Booking Controllers";
+			sourceTree = "<group>";
+		};
+		94C8ABA6257F0DA200D89060 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				94C8AB8B257C9F9E00D89060 /* Roboto-Black.ttf */,
+				94C8AB93257C9F9F00D89060 /* Roboto-BlackItalic.ttf */,
+				94C8AB94257C9F9F00D89060 /* Roboto-Bold.ttf */,
+				94C8AB8C257C9F9E00D89060 /* Roboto-BoldItalic.ttf */,
+				94C8AB90257C9F9E00D89060 /* Roboto-Italic.ttf */,
+				94C8AB8E257C9F9E00D89060 /* Roboto-Light.ttf */,
+				94C8AB95257C9F9F00D89060 /* Roboto-LightItalic.ttf */,
+				94C8AB8F257C9F9E00D89060 /* Roboto-Medium.ttf */,
+				94C8AB8D257C9F9E00D89060 /* Roboto-MediumItalic.ttf */,
+				94C8AB96257C9F9F00D89060 /* Roboto-Regular.ttf */,
+				94C8AB91257C9F9E00D89060 /* Roboto-Thin.ttf */,
+				94C8AB92257C9F9F00D89060 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0410B1152548D8E9001C4D27 /* InstaPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0410B1402548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaPark" */;
+			buildPhases = (
+				CC2D18F59974D49800C6A394 /* [CP] Check Pods Manifest.lock */,
+				0410B1122548D8E9001C4D27 /* Sources */,
+				0410B1132548D8E9001C4D27 /* Frameworks */,
+				0410B1142548D8E9001C4D27 /* Resources */,
+				58F2A3232EAFF9699280F6A1 /* [CP] Embed Pods Frameworks */,
+				0D7B66A6D135F6ACC6701CCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPark;
+			productName = InstaPark;
+			productReference = 0410B1162548D8E9001C4D27 /* InstaPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0410B12B2548D8EB001C4D27 /* InstaParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0410B1432548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaParkTests" */;
+			buildPhases = (
+				DF85498729DE5813EE433A2F /* [CP] Check Pods Manifest.lock */,
+				0410B1282548D8EB001C4D27 /* Sources */,
+				0410B1292548D8EB001C4D27 /* Frameworks */,
+				0410B12A2548D8EB001C4D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0410B12E2548D8EB001C4D27 /* PBXTargetDependency */,
+			);
+			name = InstaParkTests;
+			productName = InstaParkTests;
+			productReference = 0410B12C2548D8EB001C4D27 /* InstaParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0410B1362548D8EB001C4D27 /* InstaParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0410B1462548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaParkUITests" */;
+			buildPhases = (
+				1E331267B983709FBCE88A49 /* [CP] Check Pods Manifest.lock */,
+				0410B1332548D8EB001C4D27 /* Sources */,
+				0410B1342548D8EB001C4D27 /* Frameworks */,
+				0410B1352548D8EB001C4D27 /* Resources */,
+				B07C574BF1089015175DC99D /* [CP] Embed Pods Frameworks */,
+				3C9588874832BB5E191DFB05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0410B1392548D8EB001C4D27 /* PBXTargetDependency */,
+			);
+			name = InstaParkUITests;
+			productName = InstaParkUITests;
+			productReference = 0410B1372548D8EB001C4D27 /* InstaParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0410B10E2548D8E9001C4D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					0410B1152548D8E9001C4D27 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					0410B12B2548D8EB001C4D27 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0410B1152548D8E9001C4D27;
+					};
+					0410B1362548D8EB001C4D27 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 0410B1152548D8E9001C4D27;
+					};
+				};
+			};
+			buildConfigurationList = 0410B1112548D8E9001C4D27 /* Build configuration list for PBXProject "InstaPark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0410B10D2548D8E9001C4D27;
+			productRefGroup = 0410B1172548D8E9001C4D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0410B1152548D8E9001C4D27 /* InstaPark */,
+				0410B12B2548D8EB001C4D27 /* InstaParkTests */,
+				0410B1362548D8EB001C4D27 /* InstaParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0410B1142548D8E9001C4D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8AB9E257C9F9F00D89060 /* Roboto-ThinItalic.ttf in Resources */,
+				94C8AB9D257C9F9F00D89060 /* Roboto-Thin.ttf in Resources */,
+				94C8AB98257C9F9F00D89060 /* Roboto-BoldItalic.ttf in Resources */,
+				B49FB6B825608C2400D1DB45 /* GoogleService-Info.plist in Resources */,
+				0410B1262548D8EB001C4D27 /* LaunchScreen.storyboard in Resources */,
+				94C8AB9A257C9F9F00D89060 /* Roboto-Light.ttf in Resources */,
+				94C8ABA0257C9F9F00D89060 /* Roboto-Bold.ttf in Resources */,
+				0482FE97255CB297002F522E /* fonts in Resources */,
+				94C8AB9F257C9F9F00D89060 /* Roboto-BlackItalic.ttf in Resources */,
+				94C8AB9C257C9F9F00D89060 /* Roboto-Italic.ttf in Resources */,
+				2B633EB025B93745003448A4 /* BebasNeue-Regular.ttf in Resources */,
+				94C8AB97257C9F9F00D89060 /* Roboto-Black.ttf in Resources */,
+				0482FE9D255CB2A8002F522E /* google-icon.ico in Resources */,
+				94C8AB99257C9F9F00D89060 /* Roboto-MediumItalic.ttf in Resources */,
+				94C8AB9B257C9F9F00D89060 /* Roboto-Medium.ttf in Resources */,
+				94C8ABA1257C9F9F00D89060 /* Roboto-LightItalic.ttf in Resources */,
+				94C8ABA2257C9F9F00D89060 /* Roboto-Regular.ttf in Resources */,
+				0410B1232548D8EB001C4D27 /* Assets.xcassets in Resources */,
+				0410B1212548D8E9001C4D27 /* Main.storyboard in Resources */,
+				2BD6E15D25C4EE1000E4A88F /* UploadSlideView.xib in Resources */,
+				0482FE9E255CB2A8002F522E /* google-icon.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B12A2548D8EB001C4D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8AB5D257C972A00D89060 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B1352548D8EB001C4D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C8AB61257C972B00D89060 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7B66A6D135F6ACC6701CCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E331267B983709FBCE88A49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaPark-InstaParkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9588874832BB5E191DFB05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F2A3232EAFF9699280F6A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaPark/Pods-InstaPark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07C574BF1089015175DC99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaPark-InstaParkUITests/Pods-InstaPark-InstaParkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2D18F59974D49800C6A394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaPark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF85498729DE5813EE433A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaParkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0410B1122548D8E9001C4D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410B190254A49F7001C4D27 /* LoginViewController.swift in Sources */,
+				0410B195254A4A08001C4D27 /* SignupViewController.swift in Sources */,
+				2B33E56F25C33ED700FDC288 /* PriceViewController.swift in Sources */,
+				0498632C2578354F00C7F370 /* TransactionTableViewCell.swift in Sources */,
+				9431304E254E4E83002221F4 /* CalloutView.swift in Sources */,
+				2BD6E16225C51BE000E4A88F /* uploadButtonView.swift in Sources */,
+				2BD6E15825C4EDE000E4A88F /* UploadSlideView.swift in Sources */,
+				B4D29FAE2560AD6A0092CBB4 /* DesignableTextField.swift in Sources */,
+				2B6A4DEF25CCB21C00864075 /* SegueFromLeft.swift in Sources */,
+				0410B11E2548D8E9001C4D27 /* ViewController.swift in Sources */,
+				9404764D254CEABC008C111E /* ParkingSpaceMapAnnotation.swift in Sources */,
+				9451680E25B91A6000939551 /* ListingTimesViewController.swift in Sources */,
+				0410B11A2548D8E9001C4D27 /* AppDelegate.swift in Sources */,
+				044A3FE8254EA07A00B5F19C /* Transaction.swift in Sources */,
+				0482FE8D255CB26F002F522E /* TransactionService.swift in Sources */,
+				942F122A25C65A8B00D04F39 /* calendarCell.swift in Sources */,
+				0405B28025CF5642000E50B8 /* ContactInfoViewController.swift in Sources */,
+				049863312578466300C7F370 /* TransactionTableViewController.swift in Sources */,
+				2B0F2C1925BA307F008430FF /* PictureUploadViewController.swift in Sources */,
+				048D7E552550D739009B6AE3 /* ParkingSpotService.swift in Sources */,
+				2B6A4DF925CCC8EB00864075 /* ListingViewController.swift in Sources */,
+				2B0F2C1E25BA4D9D008430FF /* CommentsViewController.swift in Sources */,
+				0482FEA3255CB2D0002F522E /* SignupPaymentViewController.swift in Sources */,
+				943131302556391D002221F4 /* BookingViewController.swift in Sources */,
+				945167CD25AE96BC00939551 /* landingPageViewController.swift in Sources */,
+				046C40252563AF8800BD5E85 /* LocationSearchTableViewController.swift in Sources */,
+				04AB7897255DCA280090B6E7 /* ShortTermParkingSpot.swift in Sources */,
+				044AD5802581EE07000FE799 /* SlideOutView.swift in Sources */,
+				048D7E50254FDA49009B6AE3 /* Codable+Dictionary.swift in Sources */,
+				0410B11C2548D8E9001C4D27 /* SceneDelegate.swift in Sources */,
+				94313125255627BE002221F4 /* smallOverlayView.swift in Sources */,
+				0410B19A254A4A7E001C4D27 /* MapViewViewController.swift in Sources */,
+				2B633EA825B92F9A003448A4 /* SelectListingTypeViewController.swift in Sources */,
+				945167D725AE96E800939551 /* monthlyTimeViewController.swift in Sources */,
+				2B6A4DF425CCC62D00864075 /* SegueFromRight.swift in Sources */,
+				945167D225AE96CF00939551 /* hourlyTimeViewController.swift in Sources */,
+				2BE39BD625C3C2F200D10436 /* ParkingTypeView.swift in Sources */,
+				2B786A7F25CA5441001575D2 /* DirectionsViewController.swift in Sources */,
+				044A3FE3254E9EF000B5F19C /* ParkingSpot.swift in Sources */,
+				94158B3C2568A359002F5B51 /* ReservationConfirmationViewController.swift in Sources */,
+				0410B1702548F860001C4D27 /* AuthService.swift in Sources */,
+				0482FE92255CB276002F522E /* UserService.swift in Sources */,
+				94C7F85525584DD300FC15DC /* AvailabilityViewController.swift in Sources */,
+				04AB789C255DCA320090B6E7 /* LongTermParking.swift in Sources */,
+				9451681325B932FE00939551 /* ListingAddressViewController.swift in Sources */,
+				0482FE85255CB157002F522E /* ParkingCalloutView.swift in Sources */,
+				2B29F77125BE3BC400E897E7 /* ParkingInfoView.swift in Sources */,
+				2B97AF1A25C3736E002950A9 /* ParkingTypeViewController.swift in Sources */,
+				045FF1BE2573854A00DC7327 /* UIButtonExtension.swift in Sources */,
+				0482FE80255CB13A002F522E /* User.swift in Sources */,
+				0449E5A125AD6F3D00F0EED9 /* PaymentService.swift in Sources */,
+				0482FEA8255CB2D6002F522E /* ReservationModalViewController.swift in Sources */,
+				94DFA7AC25C1204800A371E8 /* ImageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B1282548D8EB001C4D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410B1312548D8EB001C4D27 /* InstaParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0410B1332548D8EB001C4D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410B13C2548D8EB001C4D27 /* InstaParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0410B12E2548D8EB001C4D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0410B1152548D8E9001C4D27 /* InstaPark */;
+			targetProxy = 0410B12D2548D8EB001C4D27 /* PBXContainerItemProxy */;
+		};
+		0410B1392548D8EB001C4D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0410B1152548D8E9001C4D27 /* InstaPark */;
+			targetProxy = 0410B1382548D8EB001C4D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0410B11F2548D8E9001C4D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410B1202548D8E9001C4D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0410B1242548D8EB001C4D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410B1252548D8EB001C4D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0410B13E2548D8EB001C4D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0410B13F2548D8EB001C4D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0410B1412548D8EB001C4D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BBE7307C025EDEF69CB82A /* Pods-InstaPark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BF3CRD6T;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaPark/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0410B1422548D8EB001C4D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4798B55AD2CA44F01FBFAD9A /* Pods-InstaPark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BF3CRD6T;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaPark/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0410B1442548D8EB001C4D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB3BEB0DBAF3EBA683DD6B0 /* Pods-InstaParkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaParkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPark.app/InstaPark";
+			};
+			name = Debug;
+		};
+		0410B1452548D8EB001C4D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A1EA382BF589B312F96A2D /* Pods-InstaParkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaParkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPark.app/InstaPark";
+			};
+			name = Release;
+		};
+		0410B1472548D8EB001C4D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C5430310CECA7E1F1E1A83 /* Pods-InstaPark-InstaParkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaParkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaPark;
+			};
+			name = Debug;
+		};
+		0410B1482548D8EB001C4D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CB94D117C221B132D1BCFA /* Pods-InstaPark-InstaParkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstaParkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevX.InstaParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaPark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0410B1112548D8E9001C4D27 /* Build configuration list for PBXProject "InstaPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410B13E2548D8EB001C4D27 /* Debug */,
+				0410B13F2548D8EB001C4D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0410B1402548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410B1412548D8EB001C4D27 /* Debug */,
+				0410B1422548D8EB001C4D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0410B1432548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410B1442548D8EB001C4D27 /* Debug */,
+				0410B1452548D8EB001C4D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0410B1462548D8EB001C4D27 /* Build configuration list for PBXNativeTarget "InstaParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410B1472548D8EB001C4D27 /* Debug */,
+				0410B1482548D8EB001C4D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0410B10E2548D8E9001C4D27 /* Project object */;
+}
